@@ -1,0 +1,191 @@
+.login-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 142px;
+    margin: 85px;
+}
+
+.left-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 615px;
+    gap: 70px;
+}
+
+
+.effort {
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    background: linear-gradient(90deg, #FF3434 32.97%, #32393D 60.54%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.subhead {
+    font-size: 20px;
+    font-weight: 400px;
+    text-align: center;
+    padding-top: 16px;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+}
+
+.img img {
+    width: 395px;
+}
+
+.form-wrapper {
+
+    display: flex;
+    padding: 36px;
+    flex-direction: column;
+    gap: 27px;
+    border-radius: 5px;
+    background: #FFF;
+
+    /* Drop Shadow */
+    box-shadow: 0px 4px 16px 0px rgba(22, 22, 22, 0.10);
+    width: 463px;
+}
+
+.company-name {
+    display: flex;
+    color: var(--colors-font, #000);
+    text-align: right;
+    font-family: Nunito;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    align-items: flex-start;
+}
+
+.to {
+    font-size: 24px;
+}
+
+.sp {
+    display: flex;
+}
+
+.sp p {
+    margin: 0;
+}
+
+.bird {
+    color: var(--colors-primary-color, #FF3434);
+    font-family: Nunito;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.wallet {
+    color: var(--colors-font, #32393D);
+    font-family: Nunito;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.text-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.tform-1 {
+    font-weight: bold;
+}
+
+.name-field {
+    padding-top: 14px;
+}
+
+.tform-2 {
+    padding-top: 25px;
+}
+
+.password {
+    font-weight: bold;
+}
+
+.pass-field {
+    padding-top: 14px;
+}
+
+.forgot {
+    padding-top: 25px;
+    text-align: end;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.submit-btn {
+    display: flex;
+    width: 346px;
+    padding: 9px 152px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    background: #32393D;
+    color: #FFF;
+    text-align: center;
+    font-family: Nunito;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.submit-btn:hover {
+    background-color: #FF3434;
+    box-shadow: 0px 4px 12px 0px rgba(255, 52, 52, 0.20);
+}
+
+.login-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.last {
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+.sign-up {
+    font-weight: bold;
+    padding-left: 5px;
+}
+
+.kkk:hover {
+    color: #FF3434;
+}
+
+.kkk {
+    text-decoration: none;
+    color: black;
+    transition: 0.3s;
+}
+
+.ppp {
+    text-decoration: none;
+    color: black;
+    transition: 0.3s;
+}
+
+.ppp:hover {
+    color: #FF3434;
+}

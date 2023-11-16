@@ -1,0 +1,9 @@
+.report{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.month {
+    font-size: 24px;
+    font-weight: bold;
+}
